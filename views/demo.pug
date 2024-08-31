@@ -1,0 +1,15 @@
+doctype html
+html 
+    head
+        title Natours | #{tour}
+        link(rel='stylesheet' href='css/style.css')          
+        link(rel='shortcut icon' href='img/favicon.png' type='image/png')
+    body
+        h1= tour  //- if we use = then everything is treated as javascript
+        h3= user.toUpperCase()
+        // hello.... Comment but it will be shown in html
+        //- hello moto ..... this won't be shown in html
+        - const x=9; //- Non Buffered Code which does not get showed on screen
+        h2= 2*x
+        p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione architecto autem a, veritatis eaque neque, labore numquam facere velit praesentium cum natus quasi minus accusamus porro rerum? Officiis, sunt eveniet.
+        button Click Me
